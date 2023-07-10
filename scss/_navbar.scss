@@ -1,0 +1,71 @@
+.navegador{
+    padding: 0;
+    margin-bottom: 15%;
+    background: linear-gradient(to left,rgb(248, 248, 68),rgb(47, 78, 99),rgb(248, 248, 68));
+    .container-fluid{
+        .contenedor-nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .container-ul{
+                display: none;
+            }
+            a{
+                width: 20%;
+              
+                img{
+                    width: 50%;
+                    height: 100%;                
+                }
+            }
+            
+            .bg-css{
+                background-color:rgb(248, 248, 68);
+            }
+            h5{
+                p{
+                     color:black;
+                    text-align: center;
+                }
+            }
+            .bord{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .gian{
+                height: auto;
+                width: 100;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .contactanos{
+                    color:black;
+                    border-radius:  5px;
+                    width: 100%;
+                    p{
+                        background-color: black;
+                        color: rgb(248, 248, 68);
+                    }
+                }
+                .container-svg{
+                    margin-top: 50px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    .color-insta{
+                        color: rgb(230, 93, 230);
+                    }
+                    .color-wsp{
+                        color: rgb(88, 250, 102);
+                    }
+                    .color-fb{
+                        color: rgb(27, 24, 216);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,962 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Saira:wght@300;400;500&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab:wght@300&family=Saira:wght@300;400;500&display=swap" rel="stylesheet');
+* {
+  font-family: "Belanosima", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+header {
+  margin-bottom: 15%;
+}
+
+main .cont-h1 h1 {
+  color: black;
+  width: 80%;
+  font-size: 2.5em;
+}
+main .busqueda {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(47, 78, 99);
+}
+main .busqueda form {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+main .busqueda form .bg-dropdown {
+  color: white;
+  width: 35%;
+  background-color: rgb(112, 179, 243);
+}
+main .busqueda form .text-form {
+  color: rgb(248, 248, 68);
+}
+main .bg-btn {
+  color: white;
+  width: 35%;
+  background-color: rgb(112, 179, 243);
+  margin-bottom: 5px;
+}
+main .render-Productos {
+  width: 100%;
+  height: auto;
+}
+main .bg-card {
+  border-radius: 5px;
+}
+main .turismo {
+  background: linear-gradient(to top, rgb(112, 179, 243), black, rgb(47, 78, 99));
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 80px 0;
+}
+main .turismo section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .turismo section article {
+  display: flex;
+  flex-direction: column;
+}
+main .turismo section article p {
+  color: rgb(248, 248, 68);
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main .turismo section article .ley {
+  color: rgb(255, 255, 255);
+}
+main .containerd-cards {
+  margin: 40px 0;
+}
+main .containerd-cards article .cont-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100px;
+  background-color: rgb(112, 179, 243);
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+main .containerd-cards article .css-card {
+  padding: 5px;
+  background-color: rgb(47, 78, 99);
+  color: white;
+}
+main .containerd-cards article .css-infoViaje {
+  border-radius: 5px;
+}
+main .containerd-cards article .bg-paqueteFiltrado {
+  width: 100%;
+  padding: 20px;
+}
+main .viaje {
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(218, 217, 217), white, rgb(218, 217, 217));
+}
+main .viaje article {
+  width: 100%;
+}
+main .viaje article .css-pFiltrado {
+  padding: 5px;
+}
+main .viaje article .css-pFiltrado:hover {
+  transform: scale(1.08);
+  transition: all 1s;
+  cursor: pointer;
+  margin: 20px;
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
+main .viaje article .bg-btn {
+  width: 45%;
+}
+main .viaje article .bg-btn:hover {
+  background-color: black;
+  color: white;
+}
+main .conoceMas {
+  width: 100%;
+}
+main .conoceMas .contenedorClima {
+  width: 100%;
+}
+main .conoceMas .contenedorClima .cont-spinner {
+  width: 100%;
+}
+main .conoceMas .contenedorClima .climaCiudad {
+  width: 100%;
+}
+main .conoceMas .contenedorClima .climaCiudad .card-clima {
+  width: 100% !important;
+}
+main .h1-div {
+  margin: 50px 0;
+}
+main .h1-div h1 {
+  background-color: rgb(47, 78, 99);
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+main .bg-viajeElegido {
+  background-color: rgb(112, 179, 243);
+  border-radius: 5px;
+}
+main .bg-viajeElegido p {
+  color: black;
+  border: solid 2px black;
+}
+main .cont-Viaje form {
+  margin-top: 30px;
+  width: 80%;
+  background-color: rgb(47, 78, 99);
+  border-radius: 5px;
+}
+main .cont-Viaje form .text-color {
+  color: white;
+}
+main .cont-Viaje form .edad p {
+  background-color: white;
+  color: black;
+  font-size: 1em;
+}
+main .btn-contratar {
+  background-color: rgb(112, 179, 243);
+  color: white;
+}
+main .btn-contratar:hover {
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+  transform: scale(1.1);
+  transition: 1s;
+}
+main .contenedorBoleto .bg-boleto {
+  background-color: black;
+  border-radius: 5px solid;
+}
+main .contenedorBoleto .bg-boleto .borde-superior h3 {
+  color: white;
+}
+main .contenedorBoleto .bg-boleto .borde-superior .text-p {
+  color: white;
+}
+main .contenedorBoleto .bg-boleto .borde-slogan {
+  background-color: rgb(112, 179, 243);
+  color: white;
+  font-size: 1em;
+}
+main .contenedorBoleto .bg-boleto .contenedorDatos {
+  border: solid 2px white;
+}
+main .contenedorBoleto .bg-boleto .contenedorDatos .datos-pasajeros ul li {
+  list-style: none;
+  color: white;
+}
+main .contenedorBoleto .bg-boleto .contenedorDatos .css-white {
+  color: white;
+}
+main .carritoCont .carrito {
+  width: 100%;
+  height: auto;
+}
+main .carritoCont .carrito .acordeon {
+  width: 100%;
+  height: auto;
+}
+main .carritoCont .carrito .acordeon .contenido-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to left, rgb(247, 247, 157), rgb(98, 133, 156), rgb(247, 247, 157));
+  width: 100%;
+  height: auto;
+}
+main .carritoCont .carrito .acordeon .contenido-carrito .cont-h2-button {
+  width: 100%;
+}
+main .carritoCont .carrito .acordeon .contenido-carrito .cont-h2-button .container-button {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+main .carritoCont .carrito .acordeon .contenido-carrito .cont-h2-button .container-button .accordion-button {
+  background-color: black;
+  color: white;
+}
+main .carritoCont .containerTotal {
+  margin: 30px 0;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, rgb(218, 217, 217), white, rgb(218, 217, 217));
+  width: 100%;
+  height: auto;
+}
+main .carritoCont .containerTotal .total .content-h2 {
+  background-color: rgb(248, 248, 68);
+  width: 100%;
+}
+main .carritoCont .containerTotal .total .content-h2 h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.1em;
+  text-align: center;
+}
+main .carritoCont .containerTotal .carro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+}
+main .carritoCont .containerTotal .carro .productosCarrito {
+  width: 90%;
+  margin: 25px 0 10px 10px;
+  border: solid 1px black;
+  text-decoration: dotted;
+}
+main .carritoCont .containerTotal .carro .productosCarrito h3 {
+  padding-bottom: 2px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .carritoCont .containerTotal .carro .productosCarrito .productoAgregados li {
+  list-style: none;
+  padding: 2px 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+}
+main .carritoCont .containerTotal .totalProductos {
+  width: 100%;
+  margin: 25px 10px 10px 10px;
+}
+main .carritoCont .containerTotal .totalProductos h3 {
+  padding-bottom: 2px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .carritoCont .containerTotal .totalProductos .button-p {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+main .carritoCont .containerTotal .totalProductos .button-p p {
+  width: 95%;
+  border: solid black 2px;
+  border-radius: 5px;
+  font-size: 3em;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+main .carritoCont .containerTotal .totalProductos .button-p .listaPago {
+  margin-top: 20px;
+}
+main .carritoCont .containerTotal .totalProductos .button-p .listaPago li {
+  list-style-position: inside;
+}
+main .carritoCont .containerTotal .totalProductos .button-p .cont-button-pagar-tienda {
+  width: 31%;
+}
+main .carritoCont .containerTotal .totalProductos .button-p .cont-button-pagar-tienda button {
+  background-color: rgb(112, 179, 243);
+  color: white;
+  width: 100%;
+}
+main .carritoCont .containerTotal .totalProductos .botonEliminar {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .carritoCont .containerTotal .totalProductos .botonEliminar .btn-vaciar {
+  background-color: rgb(226, 48, 48);
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgb(248, 248, 68), rgb(47, 78, 99), rgb(248, 248, 68));
+  display: flex;
+  flex-direction: column;
+}
+footer .pos-svg {
+  display: flex;
+}
+footer .pos-svg .container-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+footer .pos-svg .container-wrap svg {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+footer .pos-svg .container-wrap .svg-fb {
+  color: black;
+  padding: 8px 8px;
+}
+footer .pos-svg .container-wrap .svg-fb:hover {
+  color: white;
+}
+footer .pos-svg .container-wrap .svg-insta {
+  color: black;
+  padding: 8px 8px;
+}
+footer .pos-svg .container-wrap .svg-insta:hover {
+  color: white;
+}
+footer .pos-svg .container-wrap .svg-twitter {
+  padding: 8px 8px;
+  color: black;
+}
+footer .pos-svg .container-wrap .svg-twitter:hover {
+  color: white;
+}
+footer .pos-svg .container-wrap .css-text {
+  display: flex;
+  font-size: 1.2em;
+  color: black;
+}
+
+.navegador {
+  padding: 0;
+  margin-bottom: 15%;
+  background: linear-gradient(to left, rgb(248, 248, 68), rgb(47, 78, 99), rgb(248, 248, 68));
+}
+.navegador .container-fluid .contenedor-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navegador .container-fluid .contenedor-nav .container-ul {
+  display: none;
+}
+.navegador .container-fluid .contenedor-nav a {
+  width: 20%;
+}
+.navegador .container-fluid .contenedor-nav a img {
+  width: 50%;
+  height: 100%;
+}
+.navegador .container-fluid .contenedor-nav .bg-css {
+  background-color: rgb(248, 248, 68);
+}
+.navegador .container-fluid .contenedor-nav h5 p {
+  color: black;
+  text-align: center;
+}
+.navegador .container-fluid .contenedor-nav .bord {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navegador .container-fluid .contenedor-nav .gian {
+  height: auto;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.navegador .container-fluid .contenedor-nav .gian .contactanos {
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+}
+.navegador .container-fluid .contenedor-nav .gian .contactanos p {
+  background-color: black;
+  color: rgb(248, 248, 68);
+}
+.navegador .container-fluid .contenedor-nav .gian .container-svg {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.navegador .container-fluid .contenedor-nav .gian .container-svg .color-insta {
+  color: rgb(230, 93, 230);
+}
+.navegador .container-fluid .contenedor-nav .gian .container-svg .color-wsp {
+  color: rgb(88, 250, 102);
+}
+.navegador .container-fluid .contenedor-nav .gian .container-svg .color-fb {
+  color: rgb(27, 24, 216);
+}
+
+@media (width > 1024px) {
+  .navegador {
+    height: 20%;
+    padding: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .navegador .container-fluid {
+    width: 100%;
+  }
+  .navegador .container-fluid .contenedor-nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navegador .container-fluid .contenedor-nav .container-logo a img {
+    width: 150px;
+  }
+  .navegador .container-fluid .contenedor-nav .true {
+    display: none;
+  }
+  .navegador .container-fluid .contenedor-nav .container-ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .navegador .container-fluid .contenedor-nav .container-ul .navegacion {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .navegador .container-fluid .contenedor-nav .container-ul .navegacion a {
+    list-style: none;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+  }
+  .navegador .container-fluid .contenedor-nav .container-ul .navegacion li {
+    list-style: none;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .navegador .container-fluid .contenedor-nav .container-ul .navegacion li a {
+    text-decoration: none;
+    color: black;
+  }
+  .navegador .container-fluid .contenedor-nav .container-ul .navegacion li a:hover {
+    color: rgb(54, 201, 238);
+  }
+  header {
+    margin-bottom: 20px;
+  }
+  header .container-carrousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+  header .container-carrousel .w-65 {
+    width: 80%;
+    height: 50%;
+  }
+  main .cont-h1 {
+    margin-top: 100px;
+  }
+  main .cont-h1 h1 {
+    background: linear-gradient(to bottom, white, rgb(248, 248, 68));
+  }
+  main .busqueda {
+    background-color: white;
+  }
+  main .busqueda form {
+    width: 50%;
+    background-color: rgb(47, 78, 99);
+  }
+  main .busqueda form .bg-dropdown {
+    width: 20%;
+  }
+  main .turismo {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to top, rgb(112, 179, 243), black, rgb(47, 78, 99));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0 80px 0;
+  }
+  main .turismo section {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .turismo section article p {
+    color: rgb(248, 248, 68);
+    font-size: 4em;
+    text-align: center;
+  }
+  main .turismo section article .ley {
+    color: rgb(255, 255, 255);
+  }
+  main .containerd-cards {
+    background-color: rgb(47, 78, 99);
+  }
+  main .containerd-cards article {
+    display: flex;
+    justify-content: space-around;
+  }
+  main .containerd-cards article .css-card {
+    padding: 5px;
+    background-color: white;
+    color: black;
+  }
+  main .containerd-cards article .bg-btn {
+    width: 40%;
+  }
+  main .containerd-cards article .bg-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  main .viaje {
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(218, 217, 217), white, rgb(218, 217, 217));
+  }
+  main .viaje .viajeElegido {
+    width: 60%;
+  }
+  main .viaje .viajeElegido .css-pFiltrado {
+    padding: 5px;
+  }
+  main .viaje .viajeElegido .css-pFiltrado:hover {
+    transform: scale(1.08);
+    transition: all 1s;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  main .viaje .viajeElegido .bg-btn {
+    width: 60%;
+  }
+  main .viaje .viajeElegido .bg-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  main .h1-div {
+    margin: 50px 0;
+  }
+  main .h1-div h1 {
+    background-color: rgb(47, 78, 99);
+    color: white;
+    border-radius: 3px;
+  }
+  main .bg-viajeElegido {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+  }
+  main .bg-viajeElegido p {
+    border: 0;
+  }
+  main .cont-Viaje {
+    display: flex;
+  }
+  main .cont-Viaje .container-formaPago {
+    background-color: rgb(79, 124, 155);
+    padding: 10px 0;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos {
+    height: 250px;
+    width: 40%;
+    border: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos h4 {
+    color: white;
+    padding: 5px;
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration-line: overline;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .cont-select-pagos {
+    margin-top: 10px;
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .cont-select-pagos .select-option {
+    margin-bottom: 20px;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .cont-select-pagos .pagos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .cont-select-pagos .pagos p {
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    margin: 0 5px;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .svg-credito {
+    width: 100%;
+    height: 30px;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .svg-credito .input-tarjeta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .svg-credito .input-tarjeta input {
+    height: auto;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .svg-credito .input-tarjeta .button-svg {
+    background-color: gray;
+  }
+  main .cont-Viaje .container-formaPago .bg-select-pagos .svg-credito .input-tarjeta .button-svg img {
+    width: 30px;
+  }
+  main .contenedorBoleto {
+    width: 30%;
+  }
+  main .tienda-h1 h1 {
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+  }
+  main .tienda-h2 h2 {
+    color: rgb(116, 115, 115);
+    font-size: 3em;
+  }
+  main .tienda-h2 p {
+    color: rgb(165, 165, 165);
+    font-size: 2em;
+  }
+  main .contenedorTienda {
+    background: linear-gradient(to bottom, rgb(218, 217, 217), white, rgb(218, 217, 217));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  main .contenedorTienda .contenedor-carrito {
+    background-color: rgb(248, 248, 68);
+    display: flex;
+    align-items: center;
+  }
+  main .contenedorTienda .contenedor-carrito h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.1em;
+    margin-right: 10px;
+  }
+  main .contenedorTienda .contenedor-carrito a {
+    position: relative;
+    display: inline-block;
+  }
+  main .contenedorTienda .contenedor-carrito a img {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+  }
+  main .contenedorTienda .contenedor-carrito a .cart-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 4px 8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    content: attr(data-longitud);
+  }
+  main .contenedorTienda .excursionesTienda {
+    margin: 50px 50px;
+    padding: 30px 10px;
+  }
+  main .contenedorTienda .excursionesTienda .card-excursiones {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), white, rgb(47, 78, 99));
+    border-radius: 15px;
+  }
+  main .contenedorTienda .excursionesTienda .card-excursiones img {
+    padding: 10px;
+    border-radius: 15px;
+  }
+  main .contenedorTienda .excursionesTienda .card-excursiones button {
+    width: 50%;
+    color: white;
+  }
+  main .contenedorTienda .excursionesTienda .card-excursiones:hover {
+    transform: scale(1.08);
+    transition: all 1s;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  main .carritoCont {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  main .carritoCont .carrito {
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+  }
+  main .carritoCont .carrito .acordeon {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  main .carritoCont .carrito .acordeon .contenido-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to left, rgb(247, 247, 157), rgb(98, 133, 156), rgb(247, 247, 157));
+    width: 100%;
+    height: auto;
+  }
+  main .carritoCont .carrito .acordeon .contenido-carrito .cont-h2-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+  }
+  main .carritoCont .carrito .acordeon .contenido-carrito .cont-h2-button .container-button {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  main .carritoCont .carrito .acordeon .contenido-carrito .cont-h2-button .container-button .accordion-button {
+    background-color: black;
+    color: white;
+  }
+  main .carritoCont .containerTotal {
+    border: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgb(218, 217, 217), white, rgb(218, 217, 217));
+    width: 40%;
+    height: 50%;
+  }
+  main .carritoCont .containerTotal .total {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  main .carritoCont .containerTotal .total .content-h2 {
+    background-color: rgb(248, 248, 68);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .carritoCont .containerTotal .total .content-h2 h2 {
+    margin: 5px 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.1em;
+  }
+  main .carritoCont .containerTotal .carro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  main .carritoCont .containerTotal .carro .productosCarrito {
+    width: 50%;
+    margin: 25px 0 10px 10px;
+    border: solid 1px black;
+    text-decoration: dotted;
+  }
+  main .carritoCont .containerTotal .carro .productosCarrito h3 {
+    padding-bottom: 2px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  main .carritoCont .containerTotal .carro .productosCarrito .productoAgregados li {
+    list-style: none;
+    padding: 2px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+  }
+  main .carritoCont .containerTotal .carro .totalProductos {
+    width: 50%;
+    margin: 25px 10px 10px 10px;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos h3 {
+    padding-bottom: 2px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .button-p {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .button-p p {
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 3em;
+    text-align: center;
+    color: red;
+    background-color: black;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .button-p .listaPago {
+    margin-top: 20px;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .button-p .listaPago li {
+    list-style-position: inside;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .button-p .cont-button-pagar-tienda {
+    width: 40%;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .button-p .cont-button-pagar-tienda button {
+    background-color: rgb(112, 179, 243);
+    color: white;
+    width: 100%;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .botonEliminar {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .carritoCont .containerTotal .carro .totalProductos .botonEliminar .btn-vaciar {
+    background-color: rgb(226, 48, 48);
+    color: white;
+  }
+  main .conoceMas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  main .conoceMas .css-infoViaje {
+    width: 55%;
+    height: 100%;
+  }
+  main .conoceMas .contenedorClima {
+    width: 40%;
+    height: auto;
+    background: linear-gradient(to top, rgb(92, 92, 92), rgb(57, 57, 116));
+  }
+  main .conoceMas .contenedorClima .cont-spinner {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  main .conoceMas .contenedorClima .climaCiudad {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  main .conoceMas .contenedorClima .climaCiudad .card-clima {
+    width: 50% !important;
+    height: 65%;
+  }
+  footer {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 30px;
+  }
+  footer .pos-svg .container-wrap {
+    display: flex;
+    justify-content: center;
+  }
+  footer .pos-svg .container-wrap .svg-fb {
+    color: rgb(54, 201, 238);
+  }
+  footer .pos-svg .container-wrap .svg-fb:hover {
+    color: black;
+  }
+  footer .pos-svg .container-wrap .svg-insta {
+    color: rgb(54, 201, 238);
+  }
+  footer .pos-svg .container-wrap .svg-insta:hover {
+    color: black;
+  }
+  footer .pos-svg .container-wrap .svg-twitter {
+    color: rgb(54, 201, 238);
+  }
+  footer .pos-svg .container-wrap .svg-twitter:hover {
+    color: black;
+  }
+  footer .css-text {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

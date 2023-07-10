@@ -1,0 +1,423 @@
+*{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    margin-bottom: 15%;
+}
+
+main{
+    .cont-h1{
+        h1{
+            color: black;
+            width: 80%;
+            font-size: 2.5em;
+        }
+    }
+    .busqueda{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(47, 78, 99);
+        form{
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+            padding: 10px;
+           
+            .bg-dropdown{
+                color:white;
+                width: 35%;
+                background-color: rgb(112, 179, 243);
+            }
+           
+            .text-form{
+                color: rgb(248, 248, 68);
+            }
+        }
+    }
+    .bg-btn{
+        color:white;
+        width: 35%;
+        background-color: rgb(112, 179, 243);
+        margin-bottom: 5px;
+    }
+
+    .render-Productos{
+        width: 100%;
+        height: auto;
+    }
+   
+    .bg-card{
+        border-radius: 5px;
+    }
+
+    .turismo{
+        background:linear-gradient(to top,rgb(112, 179, 243),black,rgb(47, 78, 99));
+        display: flex;
+        justify-content: center;
+        margin: 80px 0 80px 0;
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            article{
+                display: flex;
+                flex-direction: column;
+                p{
+                    color: rgb(248, 248, 68);
+                    font-size: 1.5em;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .ley{
+                    color:rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+    //index
+    .containerd-cards{
+        margin: 40px 0;
+        article{
+            .cont-spinner{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                height: 100px;
+                background-color:rgb(112, 179, 243);
+                font-size: 1.2em;
+                margin-bottom: 25px;
+            }
+            .css-card{
+                padding: 5px;
+                background-color: rgb(47, 78, 99);
+                color:white;
+            }
+            .css-infoViaje{
+                border-radius: 5px;
+            }
+            .bg-paqueteFiltrado{
+                width: 100%;
+                padding: 20px;
+            }
+           
+        }
+    }
+
+    //pagina filtrada
+    .viaje{
+        width: 100%;
+        background:linear-gradient(to bottom,rgb(218, 217, 217),white,rgb(218, 217, 217));
+        article{
+           width: 100%;
+           .css-pFiltrado {
+            padding: 5px;
+            &:hover{
+                transform: scale(1.08);
+                transition: all 1s;
+                cursor: pointer;
+                margin: 20px;
+                box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5)
+            }
+           }
+           .bg-btn{
+                width: 45%;
+                &:hover{
+                    background-color: black;
+                    color: white;
+
+                }
+            }
+        }
+        
+        
+    }
+    .conoceMas{
+        width: 100%;
+        .contenedorClima{
+             width: 100%;
+            .cont-spinner{
+                width: 100%;
+            }
+            .climaCiudad{
+                width: 100%;
+                .card-clima{
+                    width: 100% !important
+                }
+            }
+        } 
+    }
+   
+    .h1-div{
+        margin: 50px 0;
+        h1{
+            background-color:rgb(47, 78, 99);
+            color: white;
+            border-radius: 3px;
+            text-align: center;
+        }
+    }
+
+    .bg-viajeElegido{
+        background-color:  rgb(112, 179, 243);
+        border-radius: 5px;
+        p{
+            color: black;
+            border: solid 2px black;
+        }   
+    }
+    .cont-Viaje{
+        form{
+            margin-top:30px;
+            width: 80%;
+            background-color:rgb(47, 78, 99);
+            border-radius: 5px;
+            .text-color{
+                color: white;
+            }
+            .edad{
+                p{
+                    background-color: white;
+                    color: black;
+                    font-size: 1em;
+                }
+            }
+        }
+        
+    }
+    .btn-contratar{
+        background-color:  rgb(112, 179, 243);
+        color: white;
+        &:hover{
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            transform:scale(1.1);
+            transition: 1s;
+        }
+      
+    }
+
+    .contenedorBoleto{
+       
+        .bg-boleto{
+           background-color: black;
+           border-radius: 5px solid;
+            .borde-superior{
+                h3{
+                    color: white;
+                }
+                .text-p{
+                    color: white;
+                }
+            }
+            .borde-slogan{
+                background-color:  rgb(112, 179, 243);
+                color: white;
+                font-size: 1em;
+            }
+            .contenedorDatos{
+                border: solid 2px white;
+                .datos-pasajeros{
+                    
+                    ul{
+                        li{
+                            list-style: none;
+                            color: white;
+                        }
+                    }
+                }
+                .css-white{
+                    color: white;
+                }
+            }
+           
+        }
+        
+        
+    }
+    .carritoCont{
+        .carrito{
+            width: 100%;
+            height: auto;
+            .acordeon{
+                width: 100%;
+                height: auto;
+                .contenido-carrito{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background:linear-gradient((to left,rgb(247, 247, 157),rgb(98, 133, 156),rgb(247, 247, 157)));
+                    width: 100%;
+                    height: auto;
+                    .cont-h2-button{
+                        width: 100%;
+                        .container-button{
+                            width: 100%;
+                            height: auto;
+                            padding: 15px;
+                            .accordion-button{
+                                background-color: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+            .containerTotal{
+                margin: 30px 0;
+                border: 2px solid black;
+                border-radius: 5px;
+                background:linear-gradient(to bottom,rgb(218, 217, 217),white,rgb(218, 217, 217));
+                width: 100%;
+                height: auto;
+                .total{
+                    .content-h2{
+                        background-color: rgb(248, 248, 68);
+                        width: 100%;
+                        h2{
+                            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            font-size: 2.1em;
+                            text-align: center;
+                        }
+                    }
+                }
+                .carro{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: stretch;
+                    .productosCarrito{
+                        width: 90%;
+                        margin: 25px 0 10px 10px;
+                        border: solid 1px black;
+                        text-decoration: dotted;
+                        h3{
+                            padding-bottom: 2px;
+                            text-align: center;
+                            text-decoration:underline;
+                            font-size: 1.5em;
+                            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+                        }
+                        .productoAgregados{
+                            li{
+                                list-style: none;
+                                padding: 2px 4px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 1.2em;
+                                color: rgb(0, 0, 0);
+                            }
+                        }
+                    }    
+                }
+                .totalProductos{
+                    width: 100%;
+                    margin: 25px 10px 10px 10px;
+                    h3{
+                        padding-bottom: 2px;
+                        text-align: center;
+                        text-decoration:underline;
+                        font-size: 1.5em;
+                        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+                    }
+                    .button-p{
+                        display: flex;
+                        flex-direction: column-reverse;
+                        align-items: center;
+                        width: 100%;
+                        margin-top: 20px;
+                        p{
+                            width: 95%;
+                            border: solid black 2px;
+                            border-radius: 5px;
+                            font-size: 3em;
+                            text-align: center;
+                            color: red;
+                            background-color: black;
+                        }
+                        .listaPago{
+                            margin-top: 20px;
+                                li{
+                                    list-style-position: inside;
+                                }
+                            }
+                            .cont-button-pagar-tienda{
+                                width: 31%;
+                                button{
+                                    background-color: rgb(112, 179, 243);
+                                    color: white;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        .botonEliminar{
+                            margin-top: 25px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            .btn-vaciar{
+                                background-color: rgb(226, 48, 48);
+                                color: white;
+                            }
+                        }
+                    }
+            }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left,rgb(248, 248, 68),rgb(47, 78, 99),rgb(248, 248, 68));
+    display: flex;
+    flex-direction: column;
+    .pos-svg{
+        display: flex;
+        
+        .container-wrap{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            width: 100%;
+            svg{
+                width: 50px;
+                height: 50px;
+                margin-top: 10px;
+            }
+            .svg-fb{
+                color:black;
+                padding: 8px 8px;
+                
+                &:hover{
+                    color: white;
+                }
+            }
+            .svg-insta{
+                color:black;
+                padding: 8px 8px;
+                &:hover{
+                    color: white;
+                }
+            }
+            .svg-twitter{
+                padding: 8px 8px;
+                color:black;
+                &:hover{
+                    color: white;
+                }
+            }
+            .css-text{
+                display: flex;
+                font-size: 1.2em;
+                color:black;
+            }
+        }
+    }
+    
+}
+
+
+

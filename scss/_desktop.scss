@@ -1,0 +1,554 @@
+@media (width > 1024px ) {
+    .navegador{
+        height: 20%;
+        padding: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        .container-fluid{
+           width: 100%;
+            .contenedor-nav{
+                height: 10%;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .container-logo{
+                    a{
+                        img{
+                            width: 150px ;
+                        }
+                    }
+                }
+                .true{
+                    display: none;
+                } 
+                .container-ul{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .navegacion{
+                        width: 40%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        a{
+                            list-style: none;
+                            font-family: 'Roboto Slab', serif;
+                            font-weight: 600;
+                            font-size: 1.1em;
+                            text-decoration: none;
+                            color: black;
+                        }
+                        li{
+                            list-style: none;
+                            font-family: 'Roboto Slab', serif;
+                            font-weight: 600;
+                            font-size: 1.2em;
+                            a{
+                                text-decoration: none;
+                                color: black;
+                                &:hover{
+                                    color: rgb(54, 201, 238);
+                                }
+                            }
+                        }
+                    }                    
+                }
+            }
+       }
+    }
+
+    header{
+        margin-bottom: 20px;
+        .container-carrousel{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80%;
+            .w-65{
+                width: 80%;
+                height: 50%;
+            }
+        }
+    }
+
+    main{
+        .cont-h1{
+            margin-top: 100px;
+          h1{
+            background:linear-gradient(to bottom,white,rgb(248, 248, 68));
+          }     
+        }
+        .busqueda{
+            background-color: white;
+            form{
+               width: 50%;
+               background-color: rgb(47, 78, 99);
+               .bg-dropdown{
+                 width: 20%;
+                }
+            }
+        }
+        .turismo{
+            width: 100%;
+            height: 400px;
+            background:linear-gradient(to top,rgb(112, 179, 243),black,rgb(47, 78, 99));
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 80px 0 80px 0;
+            section{
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+                article{
+                    p{
+                        color: rgb(248, 248, 68);
+                        font-size: 4em;
+                        text-align: center;
+                    }
+                    .ley{
+                        color:rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+
+        .containerd-cards{
+            background-color: rgb(47, 78, 99);
+            article{
+                display: flex;
+                justify-content: space-around;
+                .css-card{
+                    padding: 5px;
+                    background-color: white;
+                    color:black;
+                 
+                }
+                .bg-btn{
+                    width: 40%;
+                    &:hover{
+                    background-color: black;
+                    color: white;
+                    }
+                }
+            }
+        }
+      
+        .viaje{
+            width: 100%;
+            background:linear-gradient(to bottom,rgb(218, 217, 217),white,rgb(218, 217, 217));
+          
+            .viajeElegido{
+                width: 60%;
+                .css-pFiltrado {
+                    padding: 5px;
+                    &:hover{
+                        transform: scale(1.08);
+                        transition: all 1s;
+                        cursor: pointer;
+                        margin: 20px;
+                        box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5)
+                    }
+                }
+                .bg-btn{
+                    width: 60%;
+                    
+                    &:hover{
+                        background-color: black; 
+                        color: white;
+                    }
+                }
+               
+            }
+        } 
+        .h1-div{
+            margin: 50px 0;
+            h1{
+                background-color:rgb(47, 78, 99);
+                color: white;
+                border-radius: 3px;
+            }
+        }
+        .bg-viajeElegido{
+            height: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            font-size: 1.5em;
+            p{
+                border: 0;
+            }
+        }
+        .cont-Viaje{
+            display: flex;
+            .container-formaPago{
+                background-color: rgb(79, 124, 155);
+                padding: 10px 0;
+                .bg-select-pagos{
+                    height: 250px;
+                    width: 40%;
+                    border: solid 1px white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h4{
+                        color: white;
+                        padding: 5px;
+                        font-size: 2em;
+                        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        text-decoration-line:overline;
+                    }
+                    .cont-select-pagos{
+                        margin-top: 10px;
+                        height: auto;
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .select-option{
+                            margin-bottom: 20px;
+                        }    
+                        .pagos{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            p{
+                                background-color: white;
+                                color: black;
+                                padding: 5px 5px;
+                                margin: 0 5px;
+                                font-size: 1.2em;
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .svg-credito{
+                        width: 100%;
+                        height: 30px;
+                        .input-tarjeta{
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            input{
+                               height: auto;
+                            }
+                            .button-svg{
+                                background-color: gray;
+                                img{
+                                    width: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contenedorBoleto{
+            width: 30%;
+        }
+
+        .tienda-h1{
+            h1{
+                font-size: 5em;
+                color: rgb(0, 0, 0);
+            }
+        }
+        .tienda-h2{
+            h2{
+                color: rgb(116, 115, 115);
+                font-size: 3em;
+            }
+            p{
+                color: rgb(165, 165, 165);
+                font-size: 2em;
+            }
+        } 
+        
+        .contenedorTienda{
+            background:linear-gradient(to bottom,rgb(218, 217, 217),white,rgb(218, 217, 217));
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+            flex-wrap:wrap;
+            .contenedor-carrito{
+                background-color: rgb(248, 248, 68);
+                display: flex;
+                align-items: center;
+                h3{
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 2.1em;
+                    margin-right: 10px;
+                }
+                a{
+                    position: relative;
+                    display: inline-block;
+                    img{
+                        width: 50px;
+                        height: 40px;
+                        cursor: pointer;
+                    }
+                    .cart-badge {
+                        position: absolute;
+                        top: -10px;
+                        right: -10px;
+                        padding: 4px 8px;
+                        background-color: red;
+                        color: white;
+                        border-radius: 50%;
+                        font-size: 12px;
+                        content: attr(data-longitud)
+                    }
+                }
+            }
+            .excursionesTienda{
+                margin: 50px 50px;
+                padding: 30px 10px;
+                
+                .card-excursiones{
+                    background:linear-gradient(to bottom,rgb(0, 0, 0),white,rgb(47, 78, 99));
+                    border-radius: 15px;
+                    img{
+                        padding: 10px;
+                        border-radius: 15px;
+                    }
+                    button{
+                        width: 50%;
+                        color: white;
+                    }
+                    &:hover{
+                        transform: scale(1.08);
+                        transition: all 1s;
+                        box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.5);
+                        cursor: pointer;
+                    }
+                }
+            
+            }
+        }
+        .carritoCont{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            .carrito{
+                flex-direction: column;
+                width: 40%;
+                height: auto;
+                .acordeon{
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                   .contenido-carrito{
+                    display: flex; 
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    background:linear-gradient((to left,rgb(247, 247, 157),rgb(98, 133, 156),rgb(247, 247, 157)));
+                    width: 100%;
+                    height: auto;
+                    .cont-h2-button{
+                      width: 100%;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: space-evenly;
+                        .container-button{
+                            width: 100%;
+                            height: auto;
+                            padding: 15px;
+                            .accordion-button{
+                                background-color: black;
+                                color: white;
+                            }
+                        }
+                    }
+                   }
+                }
+            }
+            .containerTotal{
+                border: 2px solid black;
+                border-radius: 5px; 
+                background:linear-gradient(to bottom,rgb(218, 217, 217),white,rgb(218, 217, 217));
+                width: 40%;
+                height: 50%;
+                .total{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .content-h2{
+                        background-color: rgb(248, 248, 68);
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        h2{
+                            margin: 5px 0;
+                            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            font-size: 2.1em;
+                        }
+                    }
+                }
+                .carro{
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: space-between;
+                    align-items: stretch;
+                    .productosCarrito{
+                        width: 50%;
+                        margin: 25px 0 10px 10px;
+                        border: solid 1px black;
+                        text-decoration: dotted;
+                        h3{
+                            padding-bottom: 2px;
+                            text-align: center;
+                            text-decoration:underline;
+                            font-size: 1.5em;
+                            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+                        }
+                        .productoAgregados{
+                            li{
+                                list-style: none;
+                                padding: 2px 4px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 1.2em;
+                                color: rgb(0, 0, 0);
+                            }
+                        }
+                    }
+                    .totalProductos{
+                         width: 50%;
+                         margin: 25px 10px 10px 10px;
+                        h3{
+                            padding-bottom: 2px;
+                            text-align: center;
+                            text-decoration:underline;
+                            font-size: 1.5em;
+                            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+                        }
+                        .button-p{
+                            display: flex;
+                            flex-direction: column-reverse;
+                            align-items: center;
+                            width: 100%;
+                            margin-top: 20px;
+                            p{
+                                border: solid black 2px;
+                                border-radius: 5px;
+                                font-size: 3em;
+                                text-align: center;
+                                color: red;
+                                background-color: black;
+                            }
+                            .listaPago{
+                                margin-top: 20px;
+                                li{
+                                    list-style-position: inside;
+                                }
+                            }
+                            .cont-button-pagar-tienda{
+                                width: 40%;
+                                button{
+                                    background-color: rgb(112, 179, 243);
+                                    color: white;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        .botonEliminar{
+                            margin-top: 25px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            .btn-vaciar{
+                                background-color: rgb(226, 48, 48);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+        .conoceMas{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            .css-infoViaje{
+                width: 55%;
+                height: 100%;
+            }
+            .contenedorClima{
+                width: 40%;
+                height: auto;
+                background:linear-gradient(to top,rgb(92, 92, 92),rgb(57, 57, 116));
+                .cont-spinner{
+                    color: white;
+                    font-size: 1.5em;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+                .climaCiudad{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px 0;
+                    .card-clima{
+                        width: 50% !important;
+                        height: 65%;
+                    }
+                }
+            }
+        }
+    }
+
+   
+
+    footer{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+        font-size: 1.5em;
+        margin-top: 30px;
+        .pos-svg{
+            .container-wrap{
+                display: flex;
+                justify-content: center;
+                .svg-fb{
+                    color: rgb(54, 201, 238);
+                    &:hover{
+                       color:black;
+                    }
+                }
+                .svg-insta{
+                    color: rgb(54, 201, 238);
+                    &:hover{
+                        color:black;
+                    }
+                }
+                .svg-twitter{
+                    color: rgb(54, 201, 238);
+                    &:hover{
+                        color:black;
+                    }
+                }
+            }
+        }
+        .css-text{
+            display: flex;
+            justify-content: center;
+            color:black;
+        }
+    }
+}

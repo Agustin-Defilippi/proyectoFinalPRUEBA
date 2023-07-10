@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "posicion": "One",
+        "nombre": "Tren del fin del mundo",
+        "destino": "ushuaia",
+        "precio": 31583,
+        "img": "../img/trenFindelMundo.jpg",
+        "descripcion": "Partiendo desde el hotel, tomamos camino para el lado oeste de Ushuaia camino al Parque Nacional Tierra del Fuego, unos kilometros antes del ingreso se encuentra el Tren del Fin del Mundo, el mismo realiza un recorrido de unos 40/50 minutos finalizando el circuito dentro del Parque Nacional donde los esperaran el bus y guia, desde alli comenzaran el recorrido dentro de la reserva natural, visitando turbales, diques de castores, lagunas y el centro interpretativo Alakush. Finalizando la excursion en Bahia Lapataia, el fin de la RN3."
+    },
+    {
+        "id": 2,
+        "posicion": "Two",
+        "nombre": "Ushuaia City Tour",
+        "destino": "ushuaia",
+        "precio": 47200,
+        "img": "../img/ushuaia.png",
+        "descripcion": "El City Tour por Ushuaia es la primera excursión que realizan los turistas en la capital de la provincia de Tierra del Fuego. Consiste en un paseo en el que los visitantes pueden conocer los rincones más emblemáticos de la Ciudad del Fin del Mundo. Regreso al hotel por cuenta de los pax o con costo adicional."
+    },
+    {
+        "id": 3,
+        "posicion": "Three",
+        "nombre": "Salinas Grandes",
+        "destino": "jujuy",
+        "precio": 39750,
+        "img": "../img/Salinas.webp",
+        "descripcion": "Pasaran por las afueras de la Ciudad de San Salvador de Jujuy para comenzar a transitar por el extremo sur de la Quebrada de Humahuaca, hasta Purmamarca, desde allí ascenderemos por la Cuesta de Lipan, importante carretera que nos une a Chile. Arribo a las imponentes Salinas Grandes, allí podremos contemplar la grandeza del paisaje blanquecino, con sus piletones donde veremos el proceso de la extracción de sal de los lugareños también sus artesanías que hacen con este valioso producto de la puna."
+    },
+    {
+        "id": 4,
+        "posicion": "Four",
+        "nombre": "Humahuaca",
+        "destino": "Jujuy",
+        "precio": 28225,
+        "img": "../img/humahuaca.png",
+        "descripcion": "Visitaremos los pueblos de Purmamarca donde tendremos una vista privilegiada del Cerro de los Siete Colores, las Ferias de Artesanos; Tilcara con la visita a las Ruinas del Pucara de Tilcara; siguiendo el recorrido por Ruta Nacional 9, arribaremos a Humahuaca, recorriendo sus angostas calles con su casa de particular arquitectura, de paredes de adobe y techos de caña y barro."
+    },
+    {
+        "id": 5,
+        "posicion": "Five",
+        "nombre": "Tren de las Nubes",
+        "destino": "salta",
+        "precio": 19750,
+        "img": "../img/trendelasnubes.jpg",
+        "descripcion": "El Tren de alta montaña que asciende a 4.200 metros de altura, uno de los tres ferrocarriles más altos del mundo, que atraviesa vertiginosas montañas de la Cordillera de los Andes entre una asombrosa naturaleza escondida."
+    },
+    {
+        "id": 6,
+        "posicion": "Six",
+        "nombre": "Trekking Laguna de los 3",
+        "destino": "Santa Cruz",
+        "precio": 47500,
+        "img": "../img/chaltten.jpg",
+        "descripcion": "Daremos inicio a nuestra actividad con la recogida por los hoteles a partir de las 06:00 AM. (En los meses de Junio y Julio la salida sera a las 07:00 AM.) Seguidamente tomaremos la mítica Ruta 40 bordeando el Lago Argentino y emprenderemos viaje hacia el pueblo de El Chaltén a 220 km de El Calafate. Una vez en el Chaltén.<br> Durante la época invernal, el principal paisaje es la nieve. Te facilitamos crampones y bastones para que puedas caminar con seguridad. El transfer los esperará para que puedan realizar el Sendero del Fitz Roy desde El Chaltén, un recorrido de 20 kilómetros que se hace en aproximadamente 9/10 horas de trekking, con 1200 metros de altimetría acumulada."
+    },
+    {
+        "id": 7,
+        "posicion": "Seven",
+        "nombre": "Paseo en barco Iguazu",
+        "destino": "Misiones",
+        "precio": 27000,
+        "img": "../img/iguazu.jpg",
+        "descripcion": "Disfrute de un emocionante día de aventuras en las cataratas del Iguazú y la selva tropical.<br> Mucha variedad (disfrute de un trayecto en tren, un camión de safari y un paseo en barco).<br> No hay planificación de transporte (se incluye la recogida y el traslado de vuelta al hotel).<br> Descubra la flora y fauna local a través de la narración del guía."
+    },
+    {
+        "id": 8,
+        "posicion": "Eight",
+        "nombre": "City Tour ",
+        "destino": "Buenos Aires",
+        "precio": 12500,
+        "img": "../img/buenosAires.jpg",
+        "descripcion": "En este tour panorámico recorreremos Buenos Aires al completo disfrutando de los principales barrios, avenidas y monumentos de la ciudad. ¡La forma ideal de comenzar a conocer la capital del tango!."
+    }
+]
+
